@@ -7,3 +7,4 @@ lb:
 api:
   image: nathanmalishev/teaching-accounting
   target_num_containers: 2
+  autoredeploy: true
