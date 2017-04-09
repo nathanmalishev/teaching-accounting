@@ -9,7 +9,7 @@ app.get('/healthcheck', (req, res) => {
 
 
 app.get('*', (req,res) => {
-  res.send('API request not found')
+  res.send('API request not found, ever')
 })
 
 
