@@ -7,8 +7,8 @@ app.get('/healthcheck', (req, res) => {
   res.send('We are up and running')
 })
 
-app.get('/healthcheck1', (req, res) => {
-  res.send('healthcheck1 is this api endpoint')
+app.get('/healthcheck2', (req, res) => {
+  res.send('healthcheck2 izzzzs this api endpoint')
 })
 
 app.get('*', (req,res) => {
