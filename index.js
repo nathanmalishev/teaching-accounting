@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 8080
 
 
 app.get('/healthcheck', (req, res) => {
-  res.send('We are up and running, test a b c d ')
+  res.send('We are up and running, new deployment x')
 })
 
 app.get('/healthcheck2', (req, res) => {
