@@ -5,5 +5,5 @@ lb:
   ports:
     - "80:80"
 api:
-  image: nathanmalishev/teachingaccounting
+  image: nathanmalishev/teaching-accounting
   target_num_containers: 2
