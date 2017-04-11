@@ -4,11 +4,11 @@ const PORT = process.env.PORT || 8080
 
 
 app.get('/healthcheck', (req, res) => {
-  res.send('Health check 1 is fucking awesome')
+  res.send('Health check 1 is awesome')
 })
 
 app.get('/healthcheck2', (req, res) => {
-  res.send('healthcheck2 izzzzs this api endpoint')
+  res.send('teaching accounting is really fun')
 })
 
 app.get('*', (req,res) => {
