@@ -12,7 +12,7 @@ app.get('/healthcheck2', (req, res) => {
 })
 
 app.get('*', (req,res) => {
-  res.send('API request not found, ever')
+  res.send('API request not found, ever xxx')
 })
 
 
